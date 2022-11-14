@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/vendor.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+    <title>Vocabulary Helper</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vocabulary Helper</h1>
+    </header>
+    <br />
+    <form id="word-select-form">
+      <select id="word-select">
+        <option value="">Choose Vocab Word</option>
+        <!--Have select box fill programatically-->
+      </select>
+      <button type="submit">Show Definition</button>
+    </form>
+    <div id="vocab-display">
+      <h2 id="vocab-word">Test</h2>
+      <p id="vocab-def">(n.) This is an example definition</p>
+      <img src="" id="vocab-pic" />
+      <br />
+      <button type="button" id="btn-favorite"></button>
+      <br />
+    </div>
+    <div id="app-info">
+      <h2>Info</h2>
+      <p>
+        This is a simple vocabulary helper tool. Simply select a word from the
+        box above, click Show Definition, and study the words definition, part
+        of speech, and a picture for the word!
+      </p>
+      <ol id="fav-list"></ol>
+    </div>
+  </body>
+</html>

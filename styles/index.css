@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background: #6e35ff;
+    padding: 2px;
+    margin: 0;
+    box-shadow: 0px 6px 15px black;
+}
+
+h1 {
+    color: rgb(243, 243, 243);
+}
+
+#app-info {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    border: 2px solid;
+}
+
+#word-select-form {
+    margin-top: 20px;
+}
+
+#vocab-display img{
+    width: 40rem;
+    height: auto;
+}
+
+#vocab-display {
+    border: 2px solid;
+    display: none;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 40px;
+}
+
+ol {
+    list-style: none;
+    padding-left: 0;
+}
