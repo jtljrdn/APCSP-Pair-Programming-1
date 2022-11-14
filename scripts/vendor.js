@@ -5,8 +5,9 @@ const vocabDisplay = document.getElementById('vocab-display');
 const vocabWord = document.getElementById('vocab-word')
 const vocabDef = document.getElementById('vocab-def');
 const vocabPic = document.getElementById('vocab-pic');
-const btn = document.getElementById('btn-favorite');
+const favBtn = document.getElementById('btn-favorite');
 const favoritesList = document.getElementById('fav-list');
+const favHead = document.getElementById('fav-header');
 
 //DOM event listeners
 selectForm.addEventListener('submit', function(event){showWord(event, wordSelect.value);})
